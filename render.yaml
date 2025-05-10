@@ -1,7 +1,5 @@
 services:
   - type: web
     name: latex-api
-    env: python
+    env: docker
     plan: free
-    buildCommand: ""
-    startCommand: gunicorn app:app
